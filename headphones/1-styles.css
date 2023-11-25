@@ -556,9 +556,11 @@ p {
   margin-bottom: 10px;
 }
 
-.pentagone img {
+.pentagone {
   width: 190px;
   height: 190px;
+  background-color: #FF6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
 
 .section-results ul {
@@ -778,104 +780,4 @@ footer {
 .holberton_school-icon-ic_twitter:before {
   content: "\e90f";
   color: white;
-}
-
-@media only screen and (max-width: 480px) {
-  .logo img {
-      position: relative;
-      top: -36px;
-      left: 123px;
-  }
-
-  .socials ul {
-      display: block;
-      width: 100%;
-      position: absolute;
-      top: 38px;
-      left: 130px;
-      z-index: 2;
-  }
-
-  .socials ul li a {
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .or-section {
-      height: 1491px;
-      min-width: 375px;
-  }
-
-  .section-proof h2 {
-      font-size: 32px;
-      text-align: center;
-  }
-
-  .col-1 {
-      margin: 20px;
-  }
-
-  .section-proof p {
-      width: 325px;
-      height: 208;
-  }
-
-  .section-results ul {
-      display: block;
-  }
-
-  .pentagone {
-      text-align: center;
-  }
-
-  .section-results ul li {
-      margin-bottom: 70px;
-      margin-top: 100px;
-      margin-left: 80px
-  }
-
-  .section-proof {
-      margin-left: -87px
-  }
-}
-
-@media only screen and (max-width: 440px) {
-  .or-section {
-      height: 1491px;
-      min-width: 375px;
-  }
-
-  .section-proof h2 {
-      font-size: 32px;
-      text-align: center;
-  }
-
-  .col-1 {
-      margin: 20px;
-  }
-
-  .section-proof p {
-      width: 325px;
-      height: 208;
-  }
-
-  .section-results ul {
-      display: block;
-  }
-
-  .pentagone {
-      text-align: center;
-  }
-
-  .section-results ul li {
-      margin-bottom: 70px;
-      margin-top: 100px;
-      margin-left: 80px
-  }
-
-  .section-proof {
-      margin-left: -87px
-  }
 }
