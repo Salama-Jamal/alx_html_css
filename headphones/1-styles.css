@@ -431,61 +431,6 @@ p {
   }
 }
 
-@media only screen and (max-width: 440px) {
-  .header {
-      height: 869px;
-  }
-
-  .container h1 {
-      font-size: 32px;
-      margin: 0 0 30px;
-  }
-
-  .container p {
-      font-size: 14px;
-      margin: 0 0 30px;
-  }
-
-  .container button {
-      position: relative;
-      left: 98px
-  }
-
-  .section-description {
-      width: 335px;
-      height: 182px;
-  }
-
-  .section-description p {
-      font-size: 16px;
-      text-align: center;
-  }
-
-  .navbar ul {
-      display: block;
-      width: 100%;
-      position: absolute;
-      top: 38px;
-      left: -500px;
-      z-index: 2;
-  }
-
-  .navbar ul li {
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
-
-  .navbar ul.open {
-      left: 0px;
-  }
-
-  .menu-icon {
-      display: block;
-      position: relative;
-      left: -50px;
-  }
-}
-
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .header {
       height: 800px;
@@ -526,35 +471,6 @@ p {
 }
 
 @media only screen and (max-width: 480px) {
-  .section-header h1 {
-      font-size: 32px;
-      text-align: center;
-  }
-
-  .section-header p {
-      width: 325px;
-      height: 208;
-  }
-
-  .section-body ul {
-      display: block;
-  }
-
-  .card-title {
-      margin: 0 0 30px;
-  }
-
-  .section-body ul li {
-      margin: 0 0 45px;
-  }
-
-  .card-title {
-      margin: 10px
-  }
-
-}
-
-@media only screen and (max-width: 440px) {
   .section-header h1 {
       font-size: 32px;
       text-align: center;
@@ -683,7 +599,7 @@ p {
 @media only screen and (max-width: 480px) {
   .or-section {
       height: 1491px;
-      min-width: 375px;
+      width: 375px;
   }
 
   .section-proof h2 {
@@ -719,10 +635,71 @@ p {
   }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+/* Contact Us Section */
+
+.contact-section {
+  margin-top: 50px;
+}
+
+form {
+  max-width: 335px;
+  width: 90%;
+  margin: 17vh auto 0 auto;
+  padding: 40px;
+}
+
+.contact-section h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding-bottom: 5px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #071629;
+}
+
+.name {
+  color: white;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  width: 162px;
+  height: 44px;
+  background: #FF6565;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 50px;
+  align-items: center;
+  border: none;
+}
+
+.center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 480px) {
   .or-section {
-      height: 876px;
-      min-width: 768px;
+      height: 1491px;
+      min-width: 375px;
   }
 
   .section-proof h2 {
@@ -740,9 +717,7 @@ p {
   }
 
   .section-results ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 20px;
+      display: block;
   }
 
   .pentagone {
@@ -750,7 +725,9 @@ p {
   }
 
   .section-results ul li {
-      margin: 0 0 45px;
+      margin-bottom: 70px;
+      margin-top: 100px;
+      margin-left: 80px
   }
 
   .section-proof {
