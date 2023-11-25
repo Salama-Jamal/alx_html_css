@@ -230,7 +230,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 830px) {
   .header {
       height: 800px;
   }
@@ -431,7 +431,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 830px) {
   .header {
       height: 800px;
   }
@@ -499,7 +499,7 @@ p {
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 830px) {
   .section-header h1 {
       font-size: 32px;
       text-align: center;
@@ -694,6 +694,112 @@ input[type="submit"] {
 .center {
   text-align: center;
   margin-top: 40px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #071629;
+  height: 249px;
+}
+
+.fp p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
+
+.logo img {
+  width: 161px;
+  height: 32;
+  position: relative;
+  left: 199.61px;
+}
+
+.footer2 {
+  top: 91.76px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.socials ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  left: 1070;
+}
+
+.socials ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.socials ul li a {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar ul li a:hover {
+  color: #FF6565;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.fst2 {
+  font-size: 30px;
+}
+
+.holberton_school-icon-ic_instagram:before {
+  content: "\e90a";
+  color: white;
+}
+
+.holberton_school-icon-ic_facebook:before {
+  content: "\e908";
+  color: white;
+}
+
+.holberton_school-icon-ic_twitter:before {
+  content: "\e90f";
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo img {
+      position: relative;
+      top: -36px;
+      left: 123px;
+  }
+
+  .socials ul {
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 38px;
+      left: 130px;
+      z-index: 2;
+  }
+
+  .socials ul li a {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
