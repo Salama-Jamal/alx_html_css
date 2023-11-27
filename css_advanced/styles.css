@@ -34,7 +34,7 @@ body {
     padding: 0;
 }
 #container {
-    background: url("images/background3.png") no-repeat top;
+    background: url("images/background4.png") no-repeat top;
     background-size: cover;
     background-position: center;
     min-height: 150vh;
@@ -324,7 +324,7 @@ footer {
     justify-content: center;
 }
 #socials > div {
-    background-color: white;
+    background-color: #071629;
     border-radius: 50%;
     padding: 1em;
     margin-inline: 1em;
