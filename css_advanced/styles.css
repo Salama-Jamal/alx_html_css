@@ -34,7 +34,7 @@ body {
     padding: 0;
 }
 #container {
-    background: url("images/background2.png") no-repeat top;
+    background: url("images/background3.png") no-repeat top;
     background-size: cover;
     background-position: center;
     min-height: 150vh;
