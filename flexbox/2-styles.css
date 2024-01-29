@@ -5,7 +5,7 @@
     4. CARD
 */
 
-/* 1. GLOBAL */
+/*** 1. GLOBAL ***/
 
 /* Reset / Normalize
    ============================= */
@@ -41,7 +41,7 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
   
-    /* SECTION */
+    /** SECTION **/
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-header-align: center;
@@ -59,7 +59,7 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
   
-    /* HEADER */
+    /** HEADER **/
     --header-padding: 4rem 0 0;
     --header-logo-position: relative;
     --header-logo-link-display: inline-block;
@@ -67,10 +67,10 @@
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
   
-    /* FOOTER */
+    /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
-    /* NAVBAR */
+    /** NAVBAR **/
     --nav-item-font-family: var(--font-family-headings);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -79,7 +79,7 @@
     --nav-item-margin: 0 2rem 0 0;
     --nav-item-link-hover: var(--color-white);
   
-    /* BUTTON */
+    /** BUTTON **/
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: var(--color-primary) solid 0.2rem;
@@ -90,7 +90,7 @@
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
   
-    /* MOTION */
+    /** MOTION **/
     --transition-duration: .3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
   }
@@ -166,7 +166,7 @@
     white-space: nowrap;
   }
   
-  /* 2. LAYOUT */
+  /*** 2. LAYOUT ***/
   
   /* Layout
       ============================= */
@@ -179,6 +179,7 @@
   
   /* Grid
       ============================= */
+
   .row {
     display: flex;
   }
@@ -187,9 +188,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    
   }
-  
   
   [class*='col-'] {
     padding: 0.5rem;
@@ -305,7 +304,7 @@
     fill: var(--text-color);
   }
   
-  /* 3. SECTION */
+  /*** 3. SECTION ***/
   
   /* Section (all styles)
       ============================= */
@@ -371,8 +370,15 @@
   .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
   }
+
+  /* Section Latest news
+      ============================= */
+
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+  }
   
-  /* 4. CARD */
+  /*** 4. CARD ***/
   
   /* Card (all styles)
       ============================= */
@@ -498,68 +504,4 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-  }
-
-  .section--news .box-news {
-    margin-bottom: 48px;
-    min-height: 86px;
-  }
-  
-  .section--background {
-    background: #f5f5f5;
-  }
-  
-  .section {
-    padding-top: 90px;
-    padding-bottom: 92px;
-  }
-  
-  .pr-1,
-  .px-1 {
-    padding-right: 0.25rem;
-  }
-  
-  .h1,
-  h1 {
-    font-size: 1.8rem;
-    color: #1b75bc;
-    font-weight: 400;
-  }
-  
-  h2 {
-    font-size: 1.2rem;
-  }
-  
-  a {
-    font-size: 1rem;
-    color: #000;
-  }
-  
-  .section--news a.view {
-    text-decoration: underline;
-  }
-  
-  a:hover {
-    transition: all, .4s, ease;
-    text-decoration: none;
-  }
-  
-  a:hover h2 {
-    text-decoration: underline;
-  }
-  
-  a:hover p {
-    color: #000;
-  }
-  
-  .section--news .box-news p {
-    margin-bottom: 0;
-  }
-  
-  
-  /* Media Queries */
-  @media (min-width: 1230px) {
-    .section--news .container {
-      max-width: 1100px;
-    }
   }
